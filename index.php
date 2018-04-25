@@ -89,9 +89,6 @@ if(!session_start()){ session_start();}
 			case 'privacidad':
 				include(PREFIJO.'privacy.php');
 				break;
-			case 'mapa-de-sitio':
-				include(PREFIJO.'sitemap.php');
-				break;
 			case 'terminos-y-condiciones':
 				include(PREFIJO.'terminos.php');
 				break;	
