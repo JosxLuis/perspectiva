@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('icons.eot');
+  src:  url('icons.eot') format('embedded-opentype'),
+    url('icons.ttf') format('truetype'),
+    url('icons.woff') format('woff'),
+    url('icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"], [class*=" flaticon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+  .flaticon-twitter:before {
+  content: "\e90a";
+  }
+  .flaticon-facebook:before {
+  content: "\e90b";
+  }
+  .flaticon-certificate:before {
+  content: "\e901";
+  }
+  .flaticon-open-book:before {
+  content: "\e902";
+  }
+  .flaticon-phone:before {
+  content: "\e903";
+  }
+  .flaticon-email:before {
+  content: "\e904";
+  }
+  .flaticon-location:before {
+  content: "\e908";
+  }
+  .flaticon-clock:before {
+  content: "\e909";
+  }
+  .flaticon-conference:before {
+  content: "\e900";
+  }
+  .flaticon-arrow-slider-1:before {
+  content: "\e907";
+  }
+  .flaticon-arrow-slider-2:before {
+  content: "\e906";
+  }
+  .flaticon-bars:before {
+  content: "\e905";
+  }
