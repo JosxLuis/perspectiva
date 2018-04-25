@@ -441,13 +441,49 @@
 					<div class="contacto">
 						<div class="encabezado">
 							<h2>Consultar</h2>
-							<p>Si tienes alguna duda, necesitas más información o quieres ayuda sobre enlaces de noticias puedes escribirnos en el siguiente formulario:</p>
+							<p>Si tienes alguna duda, podras comprobar la validez de aquellas noticias de las que dudes su veracidad.</p>
 						</div>
 						<div class="verificar">
-							<input type="text" name="enlace" placeholder="Ingresa el enlace...">  
+							<input type="text" name="enlace" placeholder="http://www.pruebadeunenlace.mx/">  
 		                    <input type="submit" name="verificar" value="verificar">
-		                </div>	    
-					</div>		
+		                </div>
+		                <div class="row"></div>
+		                <div class="calificacion">
+			                <h3>¿El sitio es de confianza?</h3>
+			                <div class="ec-stars-wrapper">
+								<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+								<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+								<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+								<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+								<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+							</div>
+			                <h3>¿Los datos usados son verídicos?</h3>
+			                <div class="ec-stars-wrapper">
+								<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+								<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+								<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+								<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+								<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+							</div>
+			                <h3>¿La historia es verdadera?</h3>
+			                <div class="ec-stars-wrapper">
+								<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+								<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+								<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+								<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+								<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+							</div>
+			                <h3>¿El artículo es objetivo?</h3>
+			               	<div class="ec-stars-wrapper">
+								<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+								<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+								<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+								<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+								<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+							</div>
+							<h4>Total: 100%</h4>
+						</div>	
+					</div>	
 				</div>
 			</div>
 		</div>

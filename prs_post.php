@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Entretenimiento - <?php echo PROYECTO; ?></title>
+    <title>Título de la noticia - <?php echo PROYECTO; ?></title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>    
@@ -23,48 +23,39 @@
 <body>
 <?php include(PREFIJO.'header.php'); ?>
 
-    <div class="headline4 sec-third-color ">
-        <div class="container">
-            <div class="sixteen columns">
-                <div class="box pd-60">
-                    <h3 class="pp-semibol col-white">Entretenimiento</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="section">
         <div class="container">
             <div class="navegacion">
                 <ul>
                     <li><a href="<?php echo URL; ?>">Inicio</a></li>
                     <li class="separador">/</li>
-                    <li>Entretenimiento</li>
+                    <li>Título de la noticia</li>
                 </ul>
                 <div class="clear"></div>
             </div>
         </div>
     </div>
 
-    <div class="noticias">
+    <div class="noticias-post">
         <div class="container">
             <div class="two-thirds column">
-                <div class="noticia">
+                <div class="noticia-post">
                     <div class="portada">
-                        <a href="<?php echo URL; ?>post/"><img src="../img/entretenimiento.jpg" alt=""></a>
+                        <a><img src="../img/politica.jpg" alt=""></a>
                     </div>
                     <div class="box">
                         <div class="status">
                             <div class="elementos pd-hor-3">
-                                <a href="#">Categoria</a>&nbsp;
-                                <i class="fa fa-calendar-o"><span>hace 20 dias</span></i>
+                                <a href="#">Categoria</a>
+                                <i class="fa fa-calendar"><span>hace 20 dias</span></i>
                             </div>
                         </div>
                     </div>
                     <div class="box pd-all-3">
                         <div class="descripcion">
-                            <a href="<?php echo URL; ?>post/"><h2>Titulo</h2></a>
-                            <p>introduccion.</p>
+                            <h2>Título</h2>
+                            <blockquote>Introducción: esto es un ejemplo de como se apreciaria la noticia</blockquote>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatum omnis minima explicabo quos magni aliquam inventore, consequuntur sequi repellat error labore ad, voluptates maiores consectetur soluta rerum illo? Sunt.</p>
                         </div>
                     </div>
                 </div>
@@ -81,18 +72,6 @@
                     </div>
                 </div> 
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="sixteen columns">
-            <div class="box pd-10 mh-100">
-                <div class="paginacion">
-                   <!-- <?php if($cantidaBlog != 0 && $cantidaBlog >8){ ?>
-                        <div class="pagination"><?php $cat->Show_Pagination($url,'page','paginacion'); ?></div>
-                    <?php } ?> -->
-                </div>
-            </div> 
         </div>
     </div>
     

@@ -1,9 +1,3 @@
-<?php 
-
-	$versiones = "SELECT *,date_format(fecha, '%d-%m-%Y') as fecha  FROM ".DB_PREFIJO."versiones ORDER BY id".DB_PREFIJO."versiones DESC ";
-	$resVersion =mysqli_query($conexion,$versiones);
-
- ?>
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
@@ -48,18 +42,26 @@
 				</div>	
 				<div class="box">
 					<ul class="list-ver">
-
-							<?php 
-	        					while($rowVersion = mysqli_fetch_array($resVersion)){
-	        					?>
 	        			<li>
-	        				<h5><?php echo utf8_encode($rowVersion['version']); ?></h5>
-							<small> <?php echo utf8_encode($rowVersion['fecha']); ?></small>
-							<p><?php echo utf8_encode($rowVersion['introduccion']); ?></p>
-							<?php echo utf8_encode($rowVersion['descripcion']); ?>
+	        				<h5>Version 1.0.1</h5>
+							<small> 25/04/2018</small>
+							<p>Se corrigen errores mínimos en el diseño y se agregan nuevas secciones al sitio web</p>
+							<ul>
+								<li>Errores de estilo que afectaban la visualización en móviles</li>
+								<li>Se agrega página de términos</li>
+								<li>Se agrega aviso de privacidad</li>
+							</ul>
 						</li>
-							<?php }?>
-						
+					</ul>
+					<ul class="list-ver">
+	        			<li>
+	        				<h5>Version 1.0</h5>
+							<small> 10/04/2018</small>
+							<p>Se libera el sitio con las funciones principales</p>
+							<ul>
+								<li>Página principal</li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>

@@ -13,9 +13,6 @@ if(!session_start()){ session_start();}
 			case 'acerca':
 				include(PREFIJO.'acerca.php');
 				break;
-			case 'acuerdos-de-colaboracion':
-				include(PREFIJO.'acuerdo.php');
-				break;		
 			case 'salud':
 				if(isset($_GET['act']) && $_GET['act'] != ""){
 					switch ($_GET['act']) {
@@ -85,7 +82,10 @@ if(!session_start()){ session_start();}
 				}else{
 					include(PREFIJO.'deporte.php');
 				}
-				break;	
+				break;
+			case 'post':
+				include(PREFIJO.'post.php');
+				break;		
 			case 'privacidad':
 				include(PREFIJO.'privacy.php');
 				break;

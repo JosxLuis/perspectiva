@@ -18,7 +18,7 @@
 
 </head>
 <body>
-	<div class="section sec-blue absolute w1 h1">
+	<div class="section sec-red absolute w1 h1">
 		<div class="error-404-img"></div>
 		<div class="error-404-mensaje">
 				<h4 class="col-white">No hemos encontrado la dirección que solicistaste</h4><br>

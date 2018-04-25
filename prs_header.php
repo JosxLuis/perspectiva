@@ -20,10 +20,10 @@
             <div class="fleft">
                 <div class="social">
                     <ul>
-                        <li class="youtube"><a href="https://www.youtube.com/channel/UCgDu6x5r-YmsVfkazDVtsBg" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                        <li class="instagram"><a href="https://www.instagram.com/ciijusmex/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li class="twitter"><a href="https://twitter.com/CiijusAC" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li class="facebook"><a href="https://www.facebook.com/ciijusmex/?ref=bookmarks" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li class="youtube"><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li class="instagram"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
             </div>

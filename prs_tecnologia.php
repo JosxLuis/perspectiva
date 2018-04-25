@@ -51,7 +51,7 @@
             <div class="two-thirds column">
                 <div class="noticia">
                     <div class="portada">
-                        <a href="#"><img src="../img/deporte.jpg" alt=""></a>
+                        <a href="<?php echo URL; ?>post/"><img src="../img/tecnologia.jpg" alt=""></a>
                     </div>
                     <div class="box">
                         <div class="status">
@@ -63,7 +63,7 @@
                     </div>
                     <div class="box pd-all-3">
                         <div class="descripcion">
-                            <a href="#"><h2>Titulo</h2></a>
+                            <a href="<?php echo URL; ?>post/"><h2>Titulo</h2></a>
                             <p>introduccion.</p>
                         </div>
                     </div>

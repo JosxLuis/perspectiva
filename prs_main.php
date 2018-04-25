@@ -26,7 +26,7 @@
         <div id="slides">
             <ul class="slides-container">
                 <li>
-                    <a href="<?php echo URL; ?>consultar/?>"><img src="img/slider/slider.jpg" alt="PERSPECTIVA CONSULTAR"></a>
+                    <a href="<?php echo URL; ?>consultar/"><img src="img/slider/slider.jpg" alt="PERSPECTIVA CONSULTAR"></a>
                 </li>
                 <li>
                     <img src="img/slider/publicidad.jpg" alt="publicidad">

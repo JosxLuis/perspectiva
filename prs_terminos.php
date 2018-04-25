@@ -102,7 +102,7 @@ Una declaración suya, hecha bajo pena de perjurio, de que la información antes
 Agente de Derechos de Autor:<br>
 <?php echo PROYECTO; ?><br>
 Voz: +529611380457 <br>t
-e-mail: copyright@perspectiva.mx <br>
+e-mail: copyright@perspectivaa.mx <br>
  
 Para Servicio al Cliente no se dirija al Agente de Derechos de Autor, por favor diríjase a:
 Atención al Cliente de <?php echo PROYECTO; ?> <br>

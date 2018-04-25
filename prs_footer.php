@@ -7,7 +7,7 @@
                     <div class="descripcion">
                         <p>Por medio de esta plataforma, serás capaz de encontrar noticias verificadas por nuestra comunidad de usuarios, así como comprobar la validez de aquellas noticias de las que dudes su veracidad.</p>
                         <div class="telefono">
-                            <span>soporte@perspectiva.mx</span>
+                            <span>soporte@perspectivaa.mx</span>
                         </div>
                     </div>
                 </div>

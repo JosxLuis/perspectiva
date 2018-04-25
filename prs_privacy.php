@@ -87,7 +87,7 @@
 
 							Así mismo podrá revocar el consentimiento otorgado para el uso de sus datos personales. <br><br>
 
-							En cualquiera de estos supuestos, puede realizar su solicitud mediante el envío de un correo electrónico a la dirección privacidad@perspectiva.mx, o personalmente en nuestro domicilio arriba citado, poniéndose en contacto con nuestro departamento de datos personales, con el Ing. Alfredo Argenis Barraza Guillen, en el teléfono (961) 128 6553 o visitar nuestra página de internet <?php echo URL; ?>. <br><br>
+							En cualquiera de estos supuestos, puede realizar su solicitud mediante el envío de un correo electrónico a la dirección privacidad@perspectivaa.mx, o personalmente en nuestro domicilio arriba citado, poniéndose en contacto con nuestro departamento de datos personales, con el Ing. Alfredo Argenis Barraza Guillen, en el teléfono (961) 128 6553 o visitar nuestra página de internet <?php echo URL; ?>. <br><br>
 
 							Con la finalidad de poder atender su solicitud, ésta deberá satisfacer todos los requisitos estipulados en la Ley Federal de Protección de Datos Personales en Posesión de los particulares y en su Reglamento. <br><br>
 
@@ -102,7 +102,7 @@
 							• Si consiento que mis datos personales sean transferidos en los términos que señala el presente aviso de privacidad.<br>
 							• No consiento que mis datos personales sean transferidos en los términos que señala el presente aviso de privacidad.<br><br>
 
-							Si usted desea dejar de recibir mensajes promocionales de nuestra parte puede solicitarlo en nuestro departamento de datos personales, en el teléfono (961) 128 6553 o correo electrónico privacidad@perspectiva.mx o visitar nuestra página de internet <?php echo URL; ?>, también en esta página podrá consultar cualquier modificación a su Aviso de Privacidad.<br><br>
+							Si usted desea dejar de recibir mensajes promocionales de nuestra parte puede solicitarlo en nuestro departamento de datos personales, en el teléfono (961) 128 6553 o correo electrónico privacidad@perspectivaa.mx o visitar nuestra página de internet <?php echo URL; ?>, también en esta página podrá consultar cualquier modificación a su Aviso de Privacidad.<br><br>
 
 							Fecha de última actualización 25 de abril de 2018.<br><br> 
 

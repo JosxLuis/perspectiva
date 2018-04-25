@@ -43,7 +43,7 @@
     p{font-family: var(--2-regular); font-size: 1.5em; color: #616366; line-height: 1.4em;}
     p small{font-size: 90%;}
     p img { margin: 0; }
-    blockquote{font-family: var(--font-2-regular); border-left: 2px solid #ccc; color: #777; font-size: 1.6em; line-height: 1.6em; padding-left: 10px; font-style: italic; }
+    blockquote{font-family: var(--2-regular); border-left: 2px solid #ccc; color: #777; font-size: 1.6em; line-height: 1.6em; padding-left: 10px; font-style: italic; }
     blockquote p { font-size: 1em; line-height: 1.6em; color: #777; font-style: italic; }
     .pp-lig     {font-family: 'poppins-light';}
     .pp-reg     {font-family: 'poppins-regular';}
@@ -54,14 +54,7 @@
     
 
     .section            {width: 100%; min-height: 60px;}
-    .sec-blue           {background: var(--third-color)}
-    .sec-green          {background: var(--third-color)}
-    .sec-grad-blue      {background: rgb(85,201,232);
-    background: -webkit-linear-gradient(left, rgba(85,201,232,1) 0%, rgba(0,167,224,1) 100%);
-    background: -o-linear-gradient(left, rgba(85,201,232,1) 0%, rgba(0,167,224,1) 100%);
-    background: linear-gradient(to right, rgba(85,201,232,1) 0%, rgba(0,167,224,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c9e8', endColorstr='#00a7e0',GradientType=1 );}
-    .sec-grad-blue p     {color: #FFF;}
+    .sec-red           {background: var(--primary-color)}
     .sec-dark-red       {background-color: #1b1464;}
     .sec-white          {background-color: #fff;}
     .sec-primary-color  {background-color: var(--third-color);}
@@ -129,8 +122,8 @@
     .tx-rig     {text-align: right; }
     .tx-cen     {text-align: center; }
     .tx-jus     {text-align: justify;}
-    .txt1 {font-family: var(--font-2-regular);font-size: 15px;line-height: 1.4;color: #999999;}
-    .txt2 {font-family:  var(--font-2-regular);font-size: 15px;line-height: 1.4;color: var(--third-color);text-decoration: none;}
+    .txt1 {font-family: var(--2-regular);font-size: 15px;line-height: 1.4;color: #999999;}
+    .txt2 {font-family:  var(--2-regular);font-size: 15px;line-height: 1.4;color: var(--third-color);text-decoration: none;}
     .hov1:hover {text-decoration: underline;}
 
     .col-primary{color: var(--third-color);}
@@ -150,7 +143,7 @@
 
 
     /* alertas */
-    .alert{width: 92%; min-height: 10px; padding: 18px 4%; margin: 10px 0; font-size: 1.6em; line-height: 1em; font-family: var(--font-2-regular); border-radius: 5px; color: #FFF;}
+    .alert{width: 92%; min-height: 10px; padding: 18px 4%; margin: 10px 0; font-size: 1.6em; line-height: 1em; font-family: var(--2-regular); border-radius: 5px; color: #FFF;}
     .alert i{ font-size: 1.2em; }
     .alert-success{background: #25ba9b; }
     .alert-warning{background: #e1c71b; }
@@ -277,10 +270,10 @@
     .list-ver li{width: 90%; min-height: 20px; padding: 30px 2.5% 25px 2.5%; border-bottom: 1px solid #ccc;}
     .list-ver li:last-child{border-bottom: none;}
     .list-ver li h5{font-family: var(--font-2-semibold); font-size: 2.4em;}
-    .list-ver li small{font-family: var(--font-2-regular);font-size: 1.7em; color: #616366;}
-    .list-ver li p{font-family: var(--font-2-regular); text-align: justify;font-size: 1.8em; margin: 15px 0;}
+    .list-ver li small{font-family: var(--2-regular);font-size: 1.7em; color: #616366;}
+    .list-ver li p{font-family: var(--2-regular); text-align: justify;font-size: 1.8em; margin: 15px 0;}
     .list-ver li ul{width: 95%; margin-left: 5%; }
-    .list-ver li ul li{width: 100%;border-bottom: none;font-family: var(--font-2-regular);font-size: 1.8em;color: #333;list-style-type: disc; list-style-position: inside; padding: 8px 0;}
+    .list-ver li ul li{width: 100%;border-bottom: none;font-family: var(--2-regular);font-size: 1.8em;color: #333;list-style-type: disc; list-style-position: inside; padding: 8px 0;}
 
     
 
@@ -301,10 +294,10 @@
         height: auto; }
 
     /* Navegacion */
-    
+
     .navegacion{width: 98%; min-height: 50px; padding: 0 1%;}
     .navegacion ul li{float: left; min-height: 50px; font-family: var(--font-2-semibold); font-size: 1.4em; margin:0 3px; color: #616366; line-height: 3.6em; }
-    .navegacion ul li a{text-decoration: none; color: var(--third-color); transition:color .3s; font-family: var(--font-2-regular); }
+    .navegacion ul li a{text-decoration: none; color: var(--third-color); transition:color .3s; font-family: var(--2-regular); }
     .navegacion ul li a:hover{color: var(--fourth-color);}
 
     .sec-blue .navegacion ul li,.sec-gray .navegacion ul li{color:#ccc;}
@@ -324,13 +317,13 @@
 
     .paginacion{width: 100%; min-height: 44px;}
     .paginacion ul{width: 332px; min-height: 44px; }
-    .paginacion ul li{float: left; min-height: 44px; width: 44px; font-family: var(--font-2-regular); font-size: 1.4em; margin:0 2px; color: #616366; line-height: 3.2em; text-align: center; }
+    .paginacion ul li{float: left; min-height: 44px; width: 44px; font-family: var(--2-regular); font-size: 1.4em; margin:0 2px; color: #616366; line-height: 3.2em; text-align: center; }
     .paginacion ul li i{font-size: 1.4em; padding-top: 10px; line-height: 2.3em;}
     .paginacion ul li:first-child{margin-left:0; height: 15px;}
     .paginacion ul li:last-child{margin-right:0; height: 15px;}
     .paginacion ul li:first-child a,.paginacion ul li:last-child a{border:none;}
     .paginacion ul li:first-child a:hover,.paginacion ul li:last-child a:hover{border:none;}
-    .paginacion ul li a{ display: block; width: 42px; height: 42px; border:1px solid #ccc;  text-decoration: none; color: #363b40; transition:color .2s, border .2s; font-family: var(--font-2-regular); }
+    .paginacion ul li a{ display: block; width: 42px; height: 42px; border:1px solid #ccc;  text-decoration: none; color: #363b40; transition:color .2s, border .2s; font-family: var(--2-regular); }
     .paginacion ul li a:hover{color: var(--third-color); border:1px solid #40ae2a;}
     .paginacion ul li.current a{background: var(--third-color); color: #FFF; border: 1px solid #40ae2a;}
 
@@ -372,7 +365,7 @@
     .top-header .links             {width: 100%; height: 50px;}
     .top-header .links ul          {margin: 0; padding: 0;}
     .top-header .links ul li       {margin: 0 10px; padding: 0; float: left;}
-    .top-header .links ul li a     {text-decoration: none; font-family: var(--font-2-regular); color: #666; font-size: 1.4em; display: block; width: 100%; height: 100%; line-height: 3.5em;}
+    .top-header .links ul li a     {text-decoration: none; font-family: var(--2-regular); color: #666; font-size: 1.4em; display: block; width: 100%; height: 100%; line-height: 3.5em;}
     .top-header .links ul li a i   {color: var(--third-color);}
     
 
@@ -448,10 +441,10 @@
     #slides ul.slides-container li .descripcion a.blue      {background: #253657; border-bottom: 3px solid #061b45;}
 
     .sobretexto     {width: 100%; min-height: 100px; vertical-align: baseline;}
-    .sobretexto h3  {background: none; position: relative; text-align: center; margin-top: -300px; font-size: 2.7em; text-transform: uppercase; line-height:1.2em ; color: #fff; z-index: 2; font-family: var(--font-2-bold); }
-    .sobretexto p   {background: none; position: relative; text-align: center; font-size: 4em; text-transform: uppercase;line-height:1.2em ; color: var(--third-color); z-index: 2; font-family: var(--font-2-bold); }
+    .sobretexto h3  {background: none; position: relative; text-align: center; margin-top: -300px; font-size: 2.7em; text-transform: uppercase; line-height:1.2em ; color: #fff; z-index: 2; font-family: var(--2-bold); }
+    .sobretexto p   {background: none; position: relative; text-align: center; font-size: 4em; text-transform: uppercase;line-height:1.2em ; color: var(--third-color); z-index: 2; font-family: var(--2-bold); }
 
-    .no-registro{width: 100%; min-height: 200px; line-height: 200px; font-size: 2em; color:#999; font-family: var(--font-2-regular);}
+    .no-registro{width: 100%; min-height: 200px; line-height: 200px; font-size: 2em; color:#999; font-family: var(--2-regular);}
     
     /* ----------------------------NOTIFICACIONES----------------------------------- */
     .alert {
@@ -497,23 +490,8 @@
     .bottom-slider                  {width: 100%; min-height: 100px; padding: 25px 0;  background: var(--third-color); }
     .bottom-slider .datos           {width: 100%; min-height: 50px; padding: 20px 0px;}
     .bottom-slider .datos i         {width: 70px; height: 70px;display: block; border: 2px solid rgba(255,255,255,.6);  text-align: center; font-size: 4em; line-height: 1.8em; color: var(--white-color); float: left; margin-right: 20px; float: left;;}
-    .bottom-slider .datos h3        {color: var(--gray-dark-color);font-family: var(--font-2-bold); font-size: 1.6em; color: var(--white-color);}
-    .bottom-slider .datos p         {color: var(--gray-dark-color);font-family: var(--font-2-regular); font-size: 1.5em;color: var(--white-color); width:60%; float:left;}
-
-    
-    
-    /* ----------------------------CATEGORIAS----------------------------------- */
-    
-    .actividades                        {width: 100%; min-height: 350px; border-bottom: 1px solid #ddd;}
-    .actividades .item                  {width: 100%; min-height: 350px; position: relative; margin:0 auto 20px auto;}
-    .actividades .item .foto            {width: 100%; height: 270px; position: absolute; top: 0; left: 0;}
-    .actividades .item .foto a          {display: block; width: 100%; height: 100%; position: absolute; z-index: 3;}
-    .actividades .item .foto img        {display: block; width: 100%; height: 100%; object-fit: cover;}
-    .actividades .item .info            {width: 100%; height: 150px;  position: absolute; top:50%; margin-top:-75px; left: 0; z-index: 2; }
-    .actividades .item .info h3         {font-size: 2.5em;font-family: var(--2-semibold); text-align: center; color: #fff; line-height: 80px;}
-    .actividades .item .info .icono     {width: 80px; height: 80px;border-radius: 45px;  background: white; margin-top: 20px;}
-    .actividades .item .info .icono i   {font-size: 5em; color: #000; line-height: 1.6em;}
-    
+    .bottom-slider .datos h3        {color: var(--gray-dark-color);font-family: var(--2-bold); font-size: 1.6em; color: var(--white-color);}
+    .bottom-slider .datos p         {color: var(--gray-dark-color);font-family: var(--2-regular); font-size: 1.5em;color: var(--white-color); width:60%; float:left;}    
     /* ----------------------------NOTICIAS----------------------------------- */
 
     .noticias                                   {width: 100%; min-height: 500px;}
@@ -526,7 +504,7 @@
     .noticias .noticia .status .elementos i     {font-size: 1.3em; color: #999; float: right;}
     .noticias .noticia .status .elementos i a   {font-size: 1.2em; text-align: left; color: #363b40; margin-left: 5px;}
     .noticias .noticia .status .elementos i a:hover{color: #10549e; }
-    .noticias .noticia .status .elementos span  {font-size: .9em; font-family: var(--font-2-bold); text-align: left; color: #999; margin-left: 5px;}
+    .noticias .noticia .status .elementos span  {font-size: .9em; font-family: var(--2-bold); text-align: left; color: #999; margin-left: 5px;}
     .noticias .noticia .descripcion             {margin:0; padding: 0;}
     .noticias .noticia .descripcion a h2        {font-size: 2.3em; line-height:1.2em; font-family: var(--2-medium); color: #363b40; margin: 0; padding: 0;}
     .noticias .noticia .descripcion a h2:hover  {color: var(--third-color);}
@@ -551,29 +529,15 @@
     .noticias-post .noticia-post .portada                 {width: 100%; height: 425px; }
     .noticias-post .noticia-post .portada a img           {display: block; width: 100%; height: 100%; background-size: cover !important; background-position: center}
     .noticias-post .noticia-post .status                  {width: 100%; height: auto; padding: 12px 0; border-bottom: 1px solid #E6E6E6; margin-bottom: 5px; }
-    .noticias-post .noticia-post .status .elementos a     {text-decoration: none; font-size: 1.3em;line-height: 1.5em; font-family: var(--font-2-bold); color: var(--third-color); }
+    .noticias-post .noticia-post .status .elementos a     {text-decoration: none; font-size: 1.3em;line-height: 1.5em; font-family: var(--2-bold); color: var(--third-color); }
     .noticias-post .noticia-post .status .elementos i     {font-size: 1.3em; color: #999; float: right;}
     .noticias-post .noticia-post .status .elementos i a   {font-size: 1.2em; text-align: left; color: #363b40; margin-left: 5px;}
     .noticias-post .noticia-post .status .elementos i a:hover{color: #10549e; }
-    .noticias-post .noticia-post .status .elementos span  {font-size: .9em; font-family: var(--font-2-bold); text-align: left; color: #999; margin-left: 5px;}
+    .noticias-post .noticia-post .status .elementos span  {font-size: .9em; font-family: var(--2-bold); text-align: left; color: #999; margin-left: 5px;}
     .noticias-post .noticia-post .descripcion             {margin:0; padding: 0;}
-    .noticias-post .noticia-post .descripcion h2          {font-size: 2.3em; line-height:1.2em; font-family: var(--font-2-bold); color: #363b40; margin: 0; padding: 0;}
+    .noticias-post .noticia-post .descripcion h2          {font-size: 2.3em; line-height:1.2em; font-family: var(--2-bold); color: #363b40; margin: 0; padding: 0;}
     .noticias-post .noticia-post .descripcion a           {text-decoration: none;}
     .noticias-post .noticia-post .descripcion p           {font-size: 1.8em; font-family: var(--2-regular);  color: #616366; margin-top: 5px;text-align: justify;}
-
-    
-    .clinic{width: 100%; min-height: 500px;  }
-    .clinic h3{font-size: 1.5em;font-family: var(--2-semibold); text-align: center; color: #fff; padding-top: 20px;}
-    .clinic .clinicas{width: 100%; /*background: red;*/}
-    .clinic .clinicas .clinica {width: 100%; min-height: 400px; background: white; margin-bottom: 20px;}
-    .clinic .clinicas .clinica .imagen {width: 100%;}
-    .clinic .clinicas .clinica .imagen a{display: block; width: 100%; height: 100%;   background-size: cover !important; background-position: center}
-    .clinic .clinicas .clinica .logo-svg{width: 100%; height: 90px; position: absolute; top: 50%; margin-top: -55px; left: 0; filter:brightness(100%) !important; background-size: contain !important; background-position: center center !important; background-repeat: no-repeat !important;}
-    .clinic .clinicas .clinica .descr{margin:0; padding: 0;}
-    .clinic .clinicas .clinica .descr h2{font-size: 2em; line-height:1.2em; font-family: var(--2-semibold); color: #363b40; text-align: left; margin: 0; padding: 0;}
-    .clinic .clinicas .clinica .descr a {text-decoration: none;}
-    .clinic .clinicas .clinica .descr p{font-size: 1.6em; font-family: var(--2-regular); text-align: justify; color: #616366; margin-top: 10px;}
-    
 
     /* ----------------------------HEADLINE----------------------------------- */
 
@@ -593,45 +557,9 @@
     .acerca .historia                           {width: 100%; min-height: 100px; }
     .acerca .historia  .portada                 {width: 100%; height: 400px; float: left;}
     .acerca .historia .acercaportada img{width: 80%; margin:0 auto;}
-    .acerca .historia h4                        {font-size: 4em;font-family: var(--font-2-bold); margin-bottom: 20px;}
-    .acerca .historia h3                        {font-size: 2.2em;font-family: var(--font-2-bold); }
-    .acerca .historia p                         {font-size: 1.5em; font-family: var(--font-2-regular);text-align: justify; color: #616366; margin-top: 10px; margin-bottom: 20px;}
-
-    /* ----------------------------EQUIPO----------------------------------- */
-
-    .equipo                                     {width: 100%; min-height: 800px;}
-    .equipo .historia   h3                      {font-size: 2.6em;font-family: var(--2-bold); margin-bottom: 20px;}
-    .equipo .historia .integrante               {width: 100%; min-height: 300px;}
-    .equipo .historia .integrante .foto         {width: 100%; height: 260px;}
-    .equipo .historia .integrante .foto a       {display: block; width: 100%; height: 100%; background-size: cover !important; background-position: center; }
-    .equipo .historia .integrante .info         {width: 94%; height: 150px; background: #fff; border: 1px solid #ececec; margin-bottom: 40px; padding: 0 3%;}
-    .equipo .historia .integrante .info h5      {text-align: center;font-family: var(--font-2-bold); font-size: 2em; margin: 35px 0 0 0;}
-    .equipo .historia .integrante .info span    {display: block; width: 100%; font-family: var(--font-2-regular); text-align: center; font-size: 1.5em; color: #616366; padding: 5px 0;}
-    .equipo .historia .integrante .info p       {text-align: center; font-family: var(--font-2-regular); font-size: 1.3em; color:#999;}
-    
-    /* ----------------------------DIRECTOR----------------------------------- */
-
-    .director                                     {width: 100%;}
-    .director .historia h3                        {font-size: 2.6em;font-family: var(--font-2-bold); margin-bottom: 20px;}
-    .director .historia .integrante               {width: 100%; min-height: 300px;}
-    .director .historia .integrante .foto         {width: 100%; height: 380px;}
-    .director .historia .integrante .foto img     {display: block; width: 100%;height: 100%; object-fit: cover;background-size: cover !important; background-position: center; }
-    .director .historia .integrante .info         {width: 94%; height: 100px; background: #fff; border: 1px solid #ececec; margin-bottom: 40px; padding: 0 3%;}
-    .director .historia .integrante .info h5      {text-align: center;font-family: var(--font-2-bold); font-size: 2em; margin: 25px 0 0 0;}
-    .director .historia .integrante .info p       {text-align: center; font-family: var(--font-2-regular); font-size: 1.3em; color:#999;margin-top: 10px;}
-    .director .historia .desc{margin-bottom: 50px;}
-    .director .historia .desc  p                  {font-size: 1.5em; font-family: var(--font-2-regular); text-align: justify;}
-
-
-    /* ----------------------------SITIOS DE INTERES----------------------------------- */
-
-    .sitios                                 {width: 100%; min-height: 800px;}
-    .sitios .sitio   h3                     {font-size: 2.6em;font-family: var(--2-bold); margin-bottom: 20px;}
-    .sitios .sitio .enlace                  {width: 100%; min-height: 300px;}
-    .sitios .sitio .enlace .portada         {width: 100%; height: 200px;}
-    .sitios .sitio .enlace .portada a       {display: block; width: 100%; height: 100%; background-size: cover !important; background-position: center;}
-    .sitios .sitio .enlace .link            {width: 94%; height: 150px; background: #fff; border: 1px solid #ececec; margin-bottom: 40px; padding: 0 3%;}
-    .sitios .sitio .enlace .link h5         {text-align: center;font-family: var(--font-2-bold); font-size: 1.5em; margin: 35px 0 20px 0;}
+    .acerca .historia h4                        {font-size: 4em;font-family: var(--2-bold); margin-bottom: 20px;}
+    .acerca .historia h3                        {font-size: 2.2em;font-family: var(--2-bold); }
+    .acerca .historia p                         {font-size: 1.5em; font-family: var(--2-regular);text-align: justify; color: #616366; margin-top: 10px; margin-bottom: 20px;}
     
     /* -------------------------------------------------------------- */
     
@@ -645,17 +573,32 @@
     
     /* ----------------------------CONTACTO----------------------------------- */
     
-    .contacto .encabezado h2        {color: #000;font-family: var(--font-2-bold);}
-    .contacto .encabezado p         {color: var(--gray-dark-color);font-family: var(--font-2-regular); margin-bottom: 35px;}
+    .contacto .encabezado h2        {color: #000;font-family: var(--2-bold);}
+    .contacto .encabezado p         {color: var(--gray-dark-color);font-family: var(--2-regular); margin-bottom: 35px;}
     .contacto .info                 {width: 100%;min-height: 200px; padding: 20px 10px;}
     .contacto .info i               {width: 42px; height: 42px;display: block; border: 2px solid var(--third-color); border-radius: 25px; text-align: center; font-size: 2.1em; line-height: 2.2em; color: var(--third-color); float: left; margin-right: 20px;box-shadow: 2.5px 5px 9px #C8C8C8;}
     .contacto .info i:hover         {color: #fff; background-color: var(--third-color);}
-    .contacto .info p               {color: var(--gray-dark-color);font-family: var(--font-2-bold);}
+    .contacto .info p               {color: var(--gray-dark-color);font-family: var(--2-bold);}
 
     
     .contacto .verificar input[type=text]{width: 70%; float: left; height: 50px; margin: 30px 0 0 0;padding: 0; text-indent: 15px; border: none; border-radius: 5px 0 0 5px ; border: 2px solid #e6e6e6;}
     .contacto .verificar input[type=submit]{width:25%; float: left; margin: 30px 0 0 0; height: 50px; font-family: helvetica; font-weight: bold; font-size: 1.5em; color:#000;background: var(--primary-color);color: var(--white-color); border-radius: 0 5px 5px 0;}
-
+    
+    .contacto .calificacion .ec-stars-wrapper {/* Espacio entre los inline-block (los hijos, los `a`) 
+     http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+    font-size: 0;/* Podríamos quitarlo, 
+        pero de esta manera (siempre que no le demos padding), 
+        sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+        también se esté haciendo hover a alguna estrella */
+    display: inline-block;
+    }
+    .contacto .calificacion h3 {font-family: var(--2-semibold);font-size: 1.5em;}
+    .contacto .calificacion h4 {font-family: var(--2-semibold);font-size: 1.5em; color: var(--primary-color)}
+    .contacto .calificacion .ec-stars-wrapper a {text-decoration: none;display: inline-block;/* Volver a dar tamaño al texto */font-size: 32px;font-size: 1.2rem;color: #888;color: orange;}
+    .contacto .calificacion .ec-stars-wrapper:hover a {}
+    /*
+     * El selector de hijo, es necesario para aumentar la especifidad
+     */
     /* ----------------------------TOP FOOTER----------------------------------- */
 
     .top-footer                         {width: 100%; min-height: 40px; padding:10px 0; background: var(--primary-color); border-top:1px solid var(--fourth-color);}
@@ -736,8 +679,8 @@
     .perfil .usuario{width: 100%; min-height: 300px;}
     .perfil .usuario .foto{width: 182px; height: 182px; background: #fff; border-radius: 96px; margin: 0 auto 15px auto;}
     .perfil .usuario .foto a{display: block; width: 100%; height: 100%; border-radius: 50%; background-color: #fff !important;  background-size: cover !important; background-position: center;}
-    .perfil .usuario h5{ text-align: center; font-family: var(--font-2-bold)}
-    .perfil .usuario span{display: block; width: 100%; font-family: var(--font-2-regular); text-align: center; font-size: 1.6em; color: #616366;}
+    .perfil .usuario h5{ text-align: center; font-family: var(--2-bold)}
+    .perfil .usuario span{display: block; width: 100%; font-family: var(--2-regular); text-align: center; font-size: 1.6em; color: #616366;}
     
     .perfil .list-usuario li              {width: 100%; min-height: 26px; padding: 0;  font-family: var(--2-semibold); color: #fff; font-size: 1.4em; line-height: 2em; margin-bottom: 5px; background: #fff;}
     .perfil .list-usuario li.current,.list-usuario li a:hover{background: none;}
